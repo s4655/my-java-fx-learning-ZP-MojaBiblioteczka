@@ -17,11 +17,29 @@
       </ToggleButton>
       <ToggleButton mnemonicParsing="false" onAction="#openBookList" prefHeight="80.0" prefWidth="150.0" text="%topMenuButtons.bookList.text" toggleGroup="$toggleButtons" />
       <ToggleButton mnemonicParsing="false" onAction="#openStatistics" prefHeight="80.0" prefWidth="150.0" text="%topMenuButtons.statistics.text" toggleGroup="$toggleButtons" />
-      <Button contentDisplay="TOP" mnemonicParsing="false" onAction="#addBook" prefHeight="80.0" prefWidth="150.0" text="%topMenuButtons.addBook.text">
+      <Button mnemonicParsing="false" onAction="#addBook" prefHeight="80.0" prefWidth="150.0" text="%topMenuButtons.addBook.text">
          <graphic>
             <ImageView fitHeight="46.0" fitWidth="55.0" pickOnBounds="true" preserveRatio="true">
                <image>
                   <Image url="@../icons/book.png" />
+               </image>
+            </ImageView>
+         </graphic>
+      </Button>
+      <Button mnemonicParsing="false" onAction="#addBook" prefHeight="80.0" prefWidth="150.0" text="%topMenuButtons.Authors.text">
+         <graphic>
+            <ImageView fitHeight="60.0" fitWidth="80.0" pickOnBounds="true" preserveRatio="true">
+               <image>
+                  <Image url="@../icons/authors.png" />
+               </image>
+            </ImageView>
+         </graphic>
+      </Button>
+      <Button mnemonicParsing="false" onAction="#showCategoryDialog" prefHeight="80.0" prefWidth="150.0" text="%topMenuButtons.Categories.text">
+         <graphic>
+            <ImageView fitHeight="35.0" fitWidth="40.0" pickOnBounds="true" preserveRatio="true">
+               <image>
+                  <Image url="@../icons/categories.png" />
                </image>
             </ImageView>
          </graphic>

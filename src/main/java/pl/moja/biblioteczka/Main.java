@@ -28,7 +28,7 @@ public class Main extends Application {
         primaryStage.setTitle(FXMLUtils.getResourceBundle().getString("application.title"));
         primaryStage.show();
 
-        DbManager.initDatabase();
+//        DbManager.initDatabase();
     }
 
 }
